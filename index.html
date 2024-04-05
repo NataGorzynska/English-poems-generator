@@ -7,42 +7,45 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>AI poem generator</h1>
-    </header>
-    <main>
-      <form action="">
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="on"
-        />
-        <input type="submit" value="Submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        The poem will go here
-      </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/NataGorzynska" target="_blank"
-        >Natalia Górzyńska</a
-      >
-      and is open-sourced on GitHub
-      <a
-        href="https://github.com/NataGorzynska/English-poems-generator"
-        target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and is hosted on
-      <a href="https://ai-poem-generator-natalia.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI poem generator</h1>
+      </header>
+      <main>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="on"
+            class="instruction"
+          />
+          <input type="submit" value="Submit" class="button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          The poem will go here
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/NataGorzynska" target="_blank"
+          >Natalia Górzyńska</a
+        >
+        and is open-sourced on GitHub
+        <a
+          href="https://github.com/NataGorzynska/English-poems-generator"
+          target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and is hosted on
+        <a href="https://ai-poem-generator-natalia.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
